@@ -1,0 +1,32 @@
+@keyframes spinner {
+	to {transform: rotate(360deg);}
+}
+#instrument_ladebumms {
+	margin: 1rem auto 1rem auto;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	border: 2px solid #ccc;
+	border-top-color: #07d;
+	border-bottom-color: #07d;
+	animation: spinner 0.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+}
+.hidden {
+	display: none !important;
+}
+#instrument_bild {
+	width: auto;
+	height: auto;
+	max-width: 200px;
+	max-height: 200px;
+}
+#instrument_beschreibung {
+	margin: 0.75rem 1.25rem;
+}
+h1 {
+	margin: 0;
+}
+#logo {
+	width: 60%;
+	padding-top: 0.5rem;
+}
